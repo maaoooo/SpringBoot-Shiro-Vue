@@ -14,7 +14,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  */
 @SpringBootApplication
 @MapperScan("com.heeexy.example.dao")
-public class MyApplication extends SpringBootServletInitializer {
+public class
+MyApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication application = new SpringApplication(MyApplication.class);
